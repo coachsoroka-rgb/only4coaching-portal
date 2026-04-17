@@ -1,0 +1,12 @@
+{
+  "name": "only4coaching-portal",
+  "version": "1.0.0",
+  "description": "ONLY4COACHING Client Portal",
+  "scripts": {
+    "dev": "npx serve . --port 3000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx serve . --port 3000"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
