@@ -36,7 +36,7 @@ export function renderLogin(container) {
 
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: window.location.origin }
+      options: { emailRedirectTo: 'https://only4coaching-portal.vercel.app' }
     })
 
     if (error) {
