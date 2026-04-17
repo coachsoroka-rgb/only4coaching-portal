@@ -31,7 +31,7 @@ async function init() {
   const email = session.user.email
 
   // Check if admin (you — Andriy)
-  const ADMIN_EMAIL = 'andriy@only4coaching.com' // change to your real email
+  const ADMIN_EMAIL = 'info@only4coaching.com' // change to your real email
   if (email === ADMIN_EMAIL || email.includes('admin')) {
     renderAdminShell(app, session)
   } else {
